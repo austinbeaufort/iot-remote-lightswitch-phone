@@ -13,7 +13,6 @@ function main() {
 
 
 function toggleAndSend(socket, e) {
-    console.log('i am here')
     toggleState();
     socket.send(light.state);
 }
